@@ -1,0 +1,45 @@
+<DOCTYPE! HTML>
+    <html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Tic-Tac-Toe!</title>
+    </head>
+
+    <body onload="gameStart();" class="body">
+        <h1>Tic-Tac-Toe</h1>
+        <form>
+            <table border="5" style="margin: auto;">
+                <br>
+                <tr>
+                    <td id="boxResult1" class="table" onclick="playerMove(this);"></td>
+                    <td id="boxResult2" class="table" onclick="playerMove(this);"></td>
+                    <td id="boxResult3" class="table" onclick="playerMove(this);"></td>
+                </tr>
+                <tr>
+                    <td id="boxResult4" class="table" onclick="playerMove(this);"></td>
+                    <td id="boxResult5" class="table" onclick="playerMove(this);"></td>
+                    <td id="boxResult6" class="table" onclick="playerMove(this);"></td>
+                </tr>
+                <tr>
+                    <td id="boxResult7" class="table" onclick="playerMove(this);"></td>
+                    <td id="boxResult8" class="table" onclick="playerMove(this);"></td>
+                    <td id="boxResult9" class="table" onclick="playerMove(this);"></td>
+                </tr>
+            </table>
+            <br>
+            <div id="inputBox" class="input"></div>
+            <br>
+
+            <button id="Scoreboard" onclick="return false;" class="mybutton" style="font-size: 25px; position: fixed; bottom: 400px; right: 1255px;">SCORE BOARD</button>
+            <button id="X Wins" onclick="return false;" class="mybutton" style="position: fixed; bottom: 347px; right: 1370px;">X Wins: 0</button>
+            <button id="O Wins" onclick="return false;" class="mybutton" style="position: fixed; bottom: 347px; right: 1230px;">O Wins: 0</button>
+            <br>
+            <button id="Ties" onclick="return false;" class="mybutton" style="position: fixed; bottom: 300px; right: 1310px;">Ties: 0</button>
+            <button onclick="clearBox(); return false;" class="mybutton" class="reset" style="position: fixed; bottom: 12px; right: 12px;">Clear Board</button>
+
+        </form>
+        <script src="main.js"></script>
+    </body>
+
+    </html>

@@ -1,0 +1,45 @@
+.table {
+	background-color: #c0dbfc;
+    height: 150px;
+    width: 150px;
+    margin: 30%;
+    position: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.body {
+	background-color: #5c76b8;
+}
+
+h1 {
+	color: #000000; 
+	text-align: center; 
+	font-family: "Courier New", Courier, monospace; 
+	margin: 0 0 0; 
+	padding: 20px 30px; 
+	font-size: 64px; 
+	font-weight: 700; 
+	line-height: 64px; 
+}
+
+.input {
+	font-family: "Courier New", Courier, monospace; 
+	margin: 0 0 0; 
+	font-size: 20px; 
+	text-align: center; 	
+	font-weight: bold;
+}
+
+.myButton {
+	color:#FFFFFF;
+	background-color: #1e3b63;
+	border-radius:5px;
+	display:inline-block;
+	font-family: "Courier New", Courier, monospace;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+}
